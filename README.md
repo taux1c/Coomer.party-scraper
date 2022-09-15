@@ -17,11 +17,14 @@
 <ul>
 <li class="has-line-data" data-line-start="15" data-line-end="16">BeautifulSoup4</li>
 <li class="has-line-data" data-line-start="16" data-line-end="18">Requests</li>
+  <li class="has-line-data" data-line-start="16" data-line-end="18">More-itertools</li>
 </ul>
 <p class="has-line-data" data-line-start="18" data-line-end="19">Install the dependencies like this</p>
 <pre><code class="has-line-data" data-line-start="21" data-line-end="23" class="language-sh">pip install bs4
 </code></pre>
 <pre><code class="has-line-data" data-line-start="24" data-line-end="26" class="language-sh">pip install requests
+</code></pre>
+<pre><code class="has-line-data" data-line-start="24" data-line-end="26" class="language-sh">pip install more-itertools
 </code></pre>
 <h2 class="code-line" data-line-start=27 data-line-end=28 ><a id="Running_27"></a>Running</h2>
 <p class="has-line-data" data-line-start="29" data-line-end="30">For windows cd to the file directory in command prompt and use:</p>
