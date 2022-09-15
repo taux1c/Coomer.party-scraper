@@ -47,17 +47,20 @@ def coom():
 
 
         #save images to disk
-        for image in images:
-            try:
-                image_src = image["href"]
-                print(image_src)
-            except:
-                print("Error in ripping an image\n")
-                continue
-            img_data = requests.get("https://www.coomer.party"+image_src).content
-            with open(f'{file_path}/{str(number)}.jpg', 'wb') as handler:
-                handler.write(img_data)
-            number += 1
+        try:
+            for image in images:
+                try:
+                    image_src = image["href"]
+                    print(image_src)
+                except:
+                    print("Error in ripping an image\n")
+                    continue
+                img_data = requests.get("https://www.coomer.party"+image_src).content
+                with open(f'{file_path}/{str(number)}.jpg', 'wb') as handler:
+                    handler.write(img_data)
+                number += 1
+        except:
+            print("\nNo images found in this entry\n")
     print("Cooming has finished, enjoy your files!")
 
 def ScanningPosts(url):
