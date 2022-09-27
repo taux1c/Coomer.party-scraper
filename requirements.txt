@@ -1,0 +1,11 @@
+beautifulsoup4
+bs4
+certifi
+charset-normalizer
+greenlet
+idna
+more-itertools
+requests
+soupsieve
+SQLAlchemy
+urllib3
