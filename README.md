@@ -29,6 +29,13 @@
 </code></pre>
 <pre><code class="has-line-data" data-line-start="24" data-line-end="26" class="language-sh">pip install sqlalchemy
 </code></pre>
+
+<h2>
+  Or use the following command...
+ </h2>
+ pip install -r requirements.txt
+ 
+ 
 <h2 class="code-line" data-line-start=27 data-line-end=28 ><a id="Running_27"></a>Running</h2>
 <p class="has-line-data" data-line-start="29" data-line-end="30">For windows cd to the file directory in command prompt and use:</p>
 <pre><code class="has-line-data" data-line-start="31" data-line-end="33" class="language-sh">python.exe coomer.party_scraper.py
