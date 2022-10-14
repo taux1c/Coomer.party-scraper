@@ -6,7 +6,7 @@ import os
 
 from sqlalchemy import null
     
-scrapeVideos = False
+scrapeVideos = True
 
 def coom():
     number = 0
