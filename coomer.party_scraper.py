@@ -38,7 +38,7 @@ def coom():
                         print("\nError in ripping a video\n")
                         continue
                     video_data = requests.get("https://data1.coomer.party"+video_src).content
-                    with open(str(number)+'.mp4', 'wb') as handler:
+                    with open(f'{file_path}/Videos/{str(number)}.mp4', 'wb') as handler:
                         handler.write(video_data)
                     number += 1
 
