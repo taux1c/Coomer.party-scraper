@@ -1,4 +1,5 @@
-
+<h1>This doesn't work anymore, there is a new one.</h1>
+<h2>The new one can be found here: https://github.com/taux1c/coomer_xtractor</h2>
 
 <h1 class="code-line" data-line-start=0 data-line-end=1 ><a id="CoomerpartyScraper_0"></a>Coomer.party-Scraper</h1>
 <p class="has-line-data" data-line-start="2" data-line-end="3">Coomer.party scraper is exactly what it sounds like.</p>
